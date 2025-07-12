@@ -1,0 +1,14 @@
+// Define a mixin that accepts a $value
+@mixin margin-left-right($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Use the mixin
+body {
+  @include margin-left-right(10px);
+}
+
+div {
+  @include margin-left-right(15px);
+}
