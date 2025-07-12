@@ -1,0 +1,11 @@
+// Define a Sass variable
+$text-color: #3D3D3D;
+
+// Use the variable in selectors
+body {
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+}
